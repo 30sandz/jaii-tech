@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Gruppo&family=Oswald:wght@200;400&family=Plus+Jakarta+Sans:ital,wght@1,800&family=Roboto+Condensed:wght@700&display=swap');
+  
+.home {
+    background: white;
+    display: flex;
+    height: 115vh;
+    background-attachment: fixed;
+    
+}
+.model {
+    position: relative;
+    top: 15vh;
+    right: 3vw;
+    height: 75vh;
+    width: 40vw;
+    border: solid;
+}
+.content {
+    margin-bottom: 5vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0vh 5vw;
+    line-height: 5vh;
+    width: 60vw;
+}
+.head {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 2vh;
+
+    display: flex;
+    justify-content: flex-start;
+}
+.text {
+    font-family: 'Gruppo', cursive;
+    font-weight: 700;
+    margin-left: 2vw;
+}
+
+.projects {
+    
+    border: solid;
+    background: rgba(241, 234, 234, 0.809);
+    height: 90vh;
+}
+
+.top {
+    width: 15vw;
+    height: 5vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2vh 2vw;
+    font-size: 4vh;
+
+}
+.material {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    margin: 5vh 5vw;
+    height: 60vh;
+    border-radius: 15px;
+}
+
+.mat {
+    background: whitesmoke;
+    height: 50vh;
+    margin: 3vh 4vw;
+    border: solid;
+}
+

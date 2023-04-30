@@ -1,0 +1,29 @@
+{% extends 'header.html' %}
+
+{% block head %}
+<script type="module" src="{{ url_for('static',filename='js/main.js')}}"></script>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/home.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="home">
+    <div class="content">
+        <div class="head">Jaii Tech</div>
+         <div class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore minus nesciunt cumque eligendi pariatur quam mollitia quisquam eum. Blanditiis voluptatum impedit eveniet tempora dolor architecto ullam nihil quas autem omnis iusto pariatur, in voluptatem ea quam suscipit doloremque dolores laboriosam, eius excepturi eum doloribus beatae. Labore ex impedit dolorem pariatur?
+         </div></div>
+    <canvas class="model"></canvas>
+    
+</div>
+<div class="projects" id="projects">
+    <div class="top">Best Projects</div>
+    <div class="material">
+        <canvas class="mat 1"></canvas>
+        <canvas class="mat 2"></canvas>
+        <canvas class="mat 3"></canvas>
+        <canvas class="mat 4"></canvas>
+
+    </div>
+</div>
+
+{% endblock %}
