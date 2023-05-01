@@ -6,7 +6,7 @@ const scene = new THREE.Scene();
 console.log(scene)
 
 const loader = new GLTFLoader();
-loader.load('scene.gltf',function(gltf){
+loader.load('./assets/scene.gltf',function(gltf){
     console.log(gltf)
     const root = gltf.scene;
     root.scale.set(5,5,5);
