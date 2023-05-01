@@ -6,7 +6,7 @@ const scene = new THREE.Scene();
 console.log(scene)
 
 const loader = new GLTFLoader();
-loader.load('./assets/scene.gltf',function(gltf){
+loader.load('scene.gltf',function(gltf){
     console.log(gltf)
     const root = gltf.scene;
     root.scale.set(5,5,5);
@@ -32,7 +32,7 @@ camera.position.x = 20;
 scene.add(camera);
 
 const canvas = document.querySelector(".model");
-const renderer = new THREE.WebGL1Renderer( {canvas, alpha:true  });
+const renderer = new THREE.WebGL1Renderer( {canvas });
 renderer.setSize(sizes.width, sizes.height);
 renderer.setPixelRatio(2);
 renderer.render(scene,camera);
