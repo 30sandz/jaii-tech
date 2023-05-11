@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Gruppo&family=Oswald:wght@200;400&family=Plus+Jakarta+Sans:ital,wght@1,800&family=Roboto+Condensed:wght@700&display=swap');
   
 .home {
-    background-image: url(../img/bg-jt1.jpg);
+    background: url(../img/bg-b.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,15 +11,16 @@
     
 }
 .model {
+    outline: none;
+    border: none;
     position: relative;
     top: 15vh;
     right: 3vw;
-    border: solid;
 }
 .content {
-    border: solid;
+
     margin-bottom: 5vh;
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -36,9 +37,20 @@
     justify-content: flex-start;
 }
 .text {
+    border-radius: 15px;
+    padding: 5vh 5vh;
     font-family: 'Gruppo', cursive;
     font-weight: 700;
     margin-left: 2vw;
+    backdrop-filter: blur(2px);
+    transition: 500ms;
+    background: transparent;
+
+}
+
+.text:hover {
+
+    box-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
 
 .projects {
